@@ -844,3 +844,5 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_D6EBLuvDahOz1Be-3ioNJZtdGWkADGKpzTYnb3JgoTFuTxAIHd3gImq79kywgP9_480xZ7pKCA/sync';
+
+$settings['php_max_upload_size'] = '1000M';

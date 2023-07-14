@@ -24,7 +24,10 @@
         "drupal/gin": "^3.0@rc",
         "drupal/gin_login": "^2.0",
         "drupal/gin_toolbar": "^1.0@rc",
-        "drupal/paragraphs": "^1.15"
+        "drupal/iframe": "^2.23",
+        "drupal/paragraphs": "^1.15",
+        "drupal/restui": "^1.21",
+        "drush/drush": "^12.1"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -97,8 +100,5 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
-    },
-    "require-dev": {
-        "drush/drush": "^12.1"
     }
 }
